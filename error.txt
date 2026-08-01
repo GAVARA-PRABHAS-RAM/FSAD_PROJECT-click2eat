@@ -1,0 +1,15 @@
+
+> fsadproject@0.0.0 build
+> vite build
+
+vite v6.3.5 building for production...
+transforming...
+✓ 61 modules transformed.
+✗ Build failed in 1.85s
+error during build:
+Could not resolve "../Images/Paneer makhani.jpeg" from "src/components/restaurantData.jsx"
+file: /workspaces/FSAD_PROJECT-click2eat/src/components/restaurantData.jsx
+    at getRollupError (file:///workspaces/FSAD_PROJECT-click2eat/node_modules/rollup/dist/es/shared/parseAst.js:397:41)
+    at error (file:///workspaces/FSAD_PROJECT-click2eat/node_modules/rollup/dist/es/shared/parseAst.js:393:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///workspaces/FSAD_PROJECT-click2eat/node_modules/rollup/dist/es/shared/node-entry.js:21350:24)
+    at file:///workspaces/FSAD_PROJECT-click2eat/node_modules/rollup/dist/es/shared/node-entry.js:21310:26
